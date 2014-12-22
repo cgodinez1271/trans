@@ -1,0 +1,17 @@
+#Mon Dec 22 12:36:59 EST 2014
+#Carlos A. Godinez, Principal Engineer
+
+Script to automate the transfer of an XML gziped file from the JUMP host to the Instyle DEV/QA envs.
+
+Download the script into your home directory at the JUMP host, setting the permissions to executable.
+
+This scripts takes 2 parameters:
+
+	./transf.sh content-type xml.gz-filename
+
+
+The content type can be any of: 
+
+	image_component bbproduct gallery lookoftheday tout video package packagehub
+
+The xml.gz file-name will in "InStyle Content Type migration alert" email
